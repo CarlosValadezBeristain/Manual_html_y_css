@@ -1,0 +1,63 @@
+html{
+    margin: 0;
+    padding: 0;
+    background: #383736 ;
+    color: rgb(255, 255, 255);   
+}
+body{
+    width: 80%;
+    margin: 10px auto;
+}
+header, nav,article{
+    margin: 10px 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background: #7d6b74;
+ }
+
+
+
+section{
+    float: right;
+    width: 80%;
+    height: 200px;
+    background: #1f201e;
+}
+
+a:hover {
+    font-size:20px;
+    color:#100;
+  }
+  
+a:active {
+    background: #265301;
+    color: #CDFEAA;
+    }
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: rgb(255, 255, 255);
+    }
+#back{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: rgb(255, 0, 0);
+  }
+#btr{
+    float: right;
+}
+
+.boton{
+    float: left;
+    width: 20%;
+    height: 400px;
+}
